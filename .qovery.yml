@@ -1,22 +1,20 @@
 ---
 application:
-  name: "wordpressfora2sidedmarket"
-  project: "genericwp"
-  publicly_accessible: true
-  port: 80
-
+  name: "eatmypoop"
+  project: "eatmypoop"
+  organization: "QoveryCommunity"
   storage:
-  - name: "uploads"
+  - name: "fred"
     size: "10"
-    type: "ssd"
-    mount_point: "/var/www/html/wp-content/uploads"
+    type: "fast_ssd"
+    mount_point: "/mnt/fred"
 databases:
 - type: "MYSQL"
-  name: "wordpress"
-  version: "8.0"
+  name: "cooper"
+  version: "5.6"
 routers:
-- name: "main-wordpressfora2sidedmarket"
+- name: "main-eatmypoop"
   routes:
-  - application_name: "wordpressfora2sidedmarket"
+  - application_name: "eatmypoop"
     paths:
     - "/*"
