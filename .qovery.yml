@@ -1,17 +1,17 @@
 ---
 application:
   name: "wordpressfora2sidedmarket"
-  project: "wordpressTest"
+  project: "wordpress-market"
   organization: "QoveryCommunity"
   storage:
-  - name: "stones"
+  - name: "poiuy"
     size: "10"
     type: "fast_ssd"
-    mount_point: "/mnt/stones"
+    mount_point: "/mnt/poiuy"
 databases:
 - type: "MYSQL"
-  name: "flints"
-  version: "5.6"
+  name: "qwerty"
+  version: "8.0"
 routers:
 - name: "main-wordpressfora2sidedmarket"
   routes:
