@@ -1,20 +1,20 @@
 ---
 application:
-  name: "eatmypoop"
-  project: "eatmypoop"
+  name: "wordpressfora2sidedmarket"
+  project: "wordpressTest"
   organization: "QoveryCommunity"
   storage:
-  - name: "fred"
+  - name: "stones"
     size: "10"
     type: "fast_ssd"
-    mount_point: "/mnt/fred"
+    mount_point: "/mnt/stones"
 databases:
 - type: "MYSQL"
-  name: "cooper"
+  name: "flints"
   version: "5.6"
 routers:
-- name: "main-eatmypoop"
+- name: "main-wordpressfora2sidedmarket"
   routes:
-  - application_name: "eatmypoop"
+  - application_name: "wordpressfora2sidedmarket"
     paths:
     - "/*"
