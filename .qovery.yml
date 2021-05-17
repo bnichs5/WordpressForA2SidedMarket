@@ -3,6 +3,8 @@ application:
   name: "wordpressfora2sidedmarket"
   project: "wordpress-market"
   organization: "QoveryCommunity"
+  publicly_accessible: true
+  port: 80
   storage:
   - name: "quinn"
     size: "2000"
