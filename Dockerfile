@@ -15,8 +15,6 @@ COPY ./root/var/www/html/wp-config.php /var/www/html/
 COPY wp-config.php /var/www/html/wp-config.d
 COPY ./root/do_chown.sh /docker-entrypoint-extra/
 # this is a pattern to follow for plugins and themes
-COPY . /var/www/html/wp-content/plugins
-COPY . /var/www/html/wp-content/themes
 
 
 
