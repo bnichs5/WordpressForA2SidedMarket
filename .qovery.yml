@@ -1,20 +1,22 @@
 ---
 application:
-  name: "wordpress-market"
+  name: "wordpressfora2sidedmarket"
   project: "wordpress-market"
   organization: "QoveryCommunity"
+  publicly_accessible: true
+  port: 80
   storage:
-  - name: "poq"
-    size: "2000"
-    type: "hdd"
-    mount_point: "/mnt/poq"
+  - name: "poiuy"
+    size: "10"
+    type: "fast_ssd"
+    mount_point: "/mnt/poiuy"
 databases:
 - type: "MYSQL"
-  name: "qwack"
+  name: "qwerty"
   version: "8.0"
 routers:
-- name: "main-wordpress-market"
+- name: "main-wordpressfora2sidedmarket"
   routes:
-  - application_name: "wordpress-market"
+  - application_name: "wordpressfora2sidedmarket"
     paths:
     - "/*"
