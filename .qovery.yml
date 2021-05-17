@@ -3,16 +3,14 @@ application:
   name: "wordpressfora2sidedmarket"
   project: "wordpress-market"
   organization: "QoveryCommunity"
-  publicly_accessible: true
-  port: 80
   storage:
-  - name: "poiuy"
-    size: "10"
-    type: "fast_ssd"
-    mount_point: "/mnt/poiuy"
+  - name: "quinn"
+    size: "2000"
+    type: "slow_hdd"
+    mount_point: "/mnt/quinn"
 databases:
 - type: "MYSQL"
-  name: "qwerty"
+  name: "fred"
   version: "8.0"
 routers:
 - name: "main-wordpressfora2sidedmarket"
