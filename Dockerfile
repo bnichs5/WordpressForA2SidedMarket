@@ -15,6 +15,9 @@ COPY ./root/var/www/html/wp-config.php /var/www/html/
 COPY wp-config.php /var/www/html/wp-config.d
 COPY ./root/do_chown.sh /docker-entrypoint-extra/
 # this is a pattern to follow for plugins and themes
+RUN mkdir -p /var/www/html/wp-content/plugins/split-market
+RUN mkdir -p /var/www/html/wp-content/plugins/out-of-the-box
+
 COPY ./root/var/www/html/wp-content/plugins/split-market /var/www/html/wp-content/plugins/split-market
 COPY ./root/var/www/html/wp-content/plugins/out-of-the-box /var/www/html/wp-content/plugins/out-of-the-box
 
