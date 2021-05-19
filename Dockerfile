@@ -16,8 +16,8 @@ COPY wp-config.php /var/www/html/wp-config.d
 COPY ./root/do_chown.sh /docker-entrypoint-extra/
 # this is a pattern to follow for plugins and themes
 
-COPY ./root/var/www/html/wp-content/plugins/split-market /var/www/html/wp-content/plugins/  <--This part doesnt work
-COPY ./root/var/www/html/wp-content/plugins/out-of-the-box /var/www/html/wp-content/plugins/ <--This part doesnt work
+COPY . /var/www/html/wp-content/plugins/out-of-the-box
+COPY . /var/www/html/wp-content/themes/dooplay
 
 
 
