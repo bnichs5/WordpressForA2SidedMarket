@@ -1,0 +1,15 @@
+---
+application:
+  name: "wordpressfora2sidedmarket"
+  project: "wordpress-market"
+  organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "really"
+  version: "8.0"
+routers:
+- name: "main-wordpressfora2sidedmarket"
+  routes:
+  - application_name: "wordpressfora2sidedmarket"
+    paths:
+    - "/*"
