@@ -3,10 +3,10 @@
         include($config);
     }
 
-    !defined('DB_USER')          && define('DB_USER',          getenv('WORDPRESS_DB_USER')        ?: 'superuser');
-    !defined('DB_NAME')          && define('DB_NAME',          getenv('WORDPRESS_DB_NAME')        ?: 'mysql-fred');
-    !defined('DB_PASSWORD')      && define('DB_PASSWORD',      getenv('WORDPRESS_DB_PASSWORD')    ?: 'GwAMM05QCrWmLKu9');
-    !defined('DB_HOST')          && define('DB_HOST',          getenv('WORDPRESS_DB_HOST')        ?: 'fred-xiti7fl268g2v72r-svc.qovery.io');
+    !defined('DB_USER')          && define('DB_USER',          getenv('QOVERY_DATABASE_WORDPRESS_USERNAME')    ?: 'superuser');
+    !defined('DB_NAME')          && define('DB_NAME',          getenv('QOVERY_DATABASE_WORDPRESS_NAME')        ?: 'mysql-really');
+    !defined('DB_PASSWORD')      && define('DB_PASSWORD',      getenv('QOVERY_DATABASE_WORDPRESS_PASSWORD')    ?: 'ZhGpGe6IU5UeeBbo');
+    !defined('DB_HOST')          && define('DB_HOST',          getenv('QOVERY_DATABASE_WORDPRESS_HOST')        ?: 'really-ry5kngoyxb4adofv-svc.qovery.io');
     !defined('DB_CHARSET')       && define('DB_CHARSET',       getenv('WORDPRESS_DB_CHARSET')     ?: 'utf8');
     !defined('DB_COLLATE')       && define('DB_COLLATE',       getenv('WORDPRESS_DB_COLLATE')     ?: '');
 
