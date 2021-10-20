@@ -14,6 +14,7 @@ RUN wp core download --path=/var/www/html/ \
 COPY ./root/var/www/html/wp-config.php /var/www/html/
 COPY wp-config.php /var/www/html/wp-config.d
 COPY ./root/do_chown.sh /docker-entrypoint-extra/
+COPY ./root/var/www/html/NewFile.php /var/www/html/
 # this is a pattern to follow for plugins and themes
 
 # COPY . /var/www/html/wp-content/plugins/out-of-the-box
