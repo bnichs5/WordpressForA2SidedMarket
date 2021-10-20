@@ -21,7 +21,7 @@ $HEADERS = array();
 $TARGET = "";
 
 /* Customize this if you want your own path mapping logic (for advanced people) */
-$URL="https://plex-proxy.herokuapp.com/library/parts/873442/1563529050/file.mkv?download=1&X-Plex-Token=o6rHKB7SvqmQKLYCBBKk";
+$URL="https://googe.com";
 
 /* === END OF CUSTOMIZATION === */
 
