@@ -3,7 +3,7 @@
 
 ini_set('max_execution_time', 0);
 $useragent = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36";
-$v="https://plex-proxy.herokuapp.com/library/parts/873442/1563529050/file.mkv?download=1&X-Plex-Token=o6rHKB7SvqmQKLYCBBKk";
+$v="https://google.com";
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_VERBOSE, 1);
 curl_setopt($ch, CURLOPT_TIMEOUT, 222222);
